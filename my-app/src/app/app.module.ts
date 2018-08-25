@@ -4,11 +4,13 @@ import { FormsModule  } from "@angular/forms";
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { AppComponent } from './app.component';
 import { ComponentsComponent } from './components/components.component';
+import { ServerComponent } from './server/server.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentsComponent
+    ComponentsComponent,
+    ServerComponent
   ],
   imports: [
     BrowserModule,
